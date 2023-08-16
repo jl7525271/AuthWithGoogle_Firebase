@@ -1,16 +1,32 @@
-# auth_with_google
 
-autentication_with_google
+# Auth With Google Firebase
 
-## Getting Started
+This is an example how to use firebase auth and fire store to configure the login page and storage data respectively.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+[![1.png](https://i.postimg.cc/6qpPwn3s/1.png)](https://postimg.cc/BLRpB8HN)
+- Choose your  country code and entry your cellphone 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+[![2.png](https://i.postimg.cc/76VRpmqM/2.png)](https://postimg.cc/cgvT37gr)
+- Enter OTP send to your phone and then complet this fields, this data is upload to collection on fire storage. 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[![4.png](https://i.postimg.cc/wMk0tv1X/4.png)](https://postimg.cc/jnLzmRQ2)
+
+._________________________________________________
+
+[![3.png](https://i.postimg.cc/hjgwyHRt/3.png)](https://postimg.cc/NyJpLC03)
+- When you select SigninWith Google, is necesary to select an email to access  and then this data is uploaded on firestore and its show in the screen
+
+
+
+## Installation
+
+To run this project  is necesary first to configure project on firebase and download file google-services.json 
+
+[![5.png](https://i.postimg.cc/PJK9gKQn/5.png)](https://postimg.cc/dZk5d2f5)
+
+- Install dependencies 
+```bash
+  flutter pub get
+```
+    
